@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void requestPermission(){
         if(ActivityCompat.shouldShowRequestPermissionRationale(MainActivity.this,Manifest.permission.WRITE_EXTERNAL_STORAGE)){
-            Toast.makeText(MainActivity.this,"Storage permission is requires,please allow from settings",Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this,"Storage permission is required",Toast.LENGTH_SHORT).show();
         }else
         ActivityCompat.requestPermissions(MainActivity.this,new String[] {Manifest.permission.WRITE_EXTERNAL_STORAGE},111);
     }
