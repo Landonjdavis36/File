@@ -1,7 +1,7 @@
 # Overview
 
-This is a file manager app and what it does is it/
-asks you permission to access the files on your phone and then from there you can perform diffrent/
+This is a file manager app and what it does is it
+asks you permission to access the files on your phone and then from there you can perform different
 tasks with them such as move, add, delete.
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
